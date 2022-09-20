@@ -1,0 +1,6 @@
+import basedosdados as bd
+
+# Para carregar o dado direto no pandas
+df = bd.read_table(dataset_id='br_inep_censo_escolar',
+                   table_id='turma',
+                   billing_project_id="<faculdade>")
